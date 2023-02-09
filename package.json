@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "swearfilter": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT"
+}
