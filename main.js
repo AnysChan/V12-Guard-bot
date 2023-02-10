@@ -4,7 +4,9 @@ const ayarlar = require("./ayarlar.json");
 const client = new Discord.Client();
 client.setMaxListeners(20);
 
-
+client.on("ready", () => {
+  console.log(`Bot Shaper ekibinin kodları sayesinde başlatıldı! Bot isimi: ${client.user.tag}`);
+});
 /////--Korumalar--/////
 
 
